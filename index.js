@@ -1,5 +1,7 @@
 const connectionString = "<YOUR CONNECTION STRING>";
 
+/*This is imporatant*/
+
 const mongoose = require("mongoose");
 const userSchema = require("./userSchema.js");
 const User = mongoose.model("user", userSchema, "user");
